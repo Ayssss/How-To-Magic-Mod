@@ -1,0 +1,19 @@
+package com.glp.howtomagicmod.blocks;
+
+import com.glp.howtomagicmod.util.IHasModel;
+
+import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class HtmmBlockBase extends Block implements IHasModel
+{
+	public HtmmBlockBase(String name, Material material)
+	{
+		super(material)
+		  setUnlocalizedName(name);
+		    setRegistryName(name);
+		      setCreativeTab(CreativeTabs.MATERIALS);
+		    
+		    
+	}
+}

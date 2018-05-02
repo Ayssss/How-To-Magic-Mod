@@ -1,0 +1,5 @@
+package com.glp.howtomagicmod.util;
+
+public interface IHasModel {
+
+}

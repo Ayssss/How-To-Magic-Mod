@@ -1,0 +1,32 @@
+package com.glp.howtomagicmod.items;
+
+import com.glp.howtomagicmod.init.HtmmItems;
+import com.glp.howtomagicmod.util.IHasModel;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class HTMMItemBase extends Item implements IHasModel  
+{
+
+	public HTMMItemBase(String name)
+	  {
+		setUnlocalizedName(name);
+		  setRegistryName(name);
+		    setCreativeTab(CreativeTabs.MATERIALS);
+		    
+		    
+		 HtmmItems.ITEMS.add(this);
+	  }
+	
+	
+	@Override
+	  public void registerModels() 
+	  
+	  
+	{
+		
+		
+		
+	}
+}

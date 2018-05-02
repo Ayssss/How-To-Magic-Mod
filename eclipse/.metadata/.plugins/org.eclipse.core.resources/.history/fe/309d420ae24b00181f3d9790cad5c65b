@@ -1,0 +1,8 @@
+package snippet;
+
+public class Snippet {
+	@SubscribeEvent
+	  public static void onItemRegister(RegistryEvent.Register<Item> event)
+	  {
+}
+

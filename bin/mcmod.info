@@ -1,0 +1,16 @@
+[
+{
+  "modid": "HtMM",
+  "name": "How To Magic Mod",
+  "description": "A fun magic mod that helps makes minecraft life simpler",
+  "version": "${0.0.0.1dev}",
+  "mcversion": "${1.12.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["SaltyTaco, IawesomeNathan, Emaculant, Abyss, Noway"],
+  "credits": "The Beta-testers for helping give us more information on how to improve this mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
