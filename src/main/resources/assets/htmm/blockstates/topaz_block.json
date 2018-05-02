@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "htmm:topaz_block" }
+    }
+}
