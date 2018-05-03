@@ -1,0 +1,19 @@
+package com.glp.howtomagicmod.tabs;
+
+import com.glp.howtomagicmod.init.HtmmBlocks;
+import com.glp.howtomagicmod.init.HtmmItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+
+public class HtmmCombatTab extends CreativeTabs
+{
+	public HtmmCombatTab(String label) { 
+	  super("htmmcombattab");
+	    this.setBackgroundImageName("htmm.png"); }
+	      public ItemStack getTabIconItem() {
+		    return new ItemStack(HtmmItems.CHESTPLATE_OF_STRENGTH);
+ }
+}
+

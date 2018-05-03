@@ -2,7 +2,9 @@ package com.glp.howtomagicmod;
 
 import com.glp.howtomagicmod.proxy.CommonProxy;
 import com.glp.howtomagicmod.tabs.HtmmBlocksTab;
+import com.glp.howtomagicmod.tabs.HtmmCombatTab;
 import com.glp.howtomagicmod.tabs.HtmmMaterialsTab;
+import com.glp.howtomagicmod.tabs.HtmmToolsTab;
 import com.glp.howtomagicmod.util.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -21,6 +23,10 @@ public class Main
 	
 	public static final CreativeTabs htmmblockstab = new HtmmBlocksTab("htmmblockstab"); 
 	
+	public static final CreativeTabs htmmcombattab = new HtmmCombatTab("htmmcombattab"); 
+
+	public static final CreativeTabs htmmtoolstab = new HtmmToolsTab("htmmtoolstab"); 
+
   @Instance
     public static Main instance;
   

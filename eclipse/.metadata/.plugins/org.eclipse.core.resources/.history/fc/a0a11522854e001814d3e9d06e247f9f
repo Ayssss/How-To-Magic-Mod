@@ -1,0 +1,7 @@
+package com.glp.howtomagicmod.weapons.swords;
+
+import net.minecraft.item.Item;
+
+public class HtmmSwordBase extends Item {
+
+}
