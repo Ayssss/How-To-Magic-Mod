@@ -3,7 +3,7 @@ package com.glp.howtomagicmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.glp.howtomagicmod.armour.HtmmArmorBase;
+import com.glp.howtomagicmod.armor.HtmmArmorBase;
 import com.glp.howtomagicmod.items.HtmmItemBase;
 import com.glp.howtomagicmod.tools.HtmmAxeBase;
 import com.glp.howtomagicmod.tools.HtmmHoeBase;
@@ -24,10 +24,10 @@ public class HtmmItems
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 
 	  //Materials
-	  public static final ToolMaterial QUARTER_MYSTICAL_TOOLS = EnumHelper.addToolMaterial("quarter_mystical_tools", 2, 1500, 6.0F, 1.5F, 50);
-	  public static final ArmorMaterial MYSTICAL_ARMOR = EnumHelper.addArmorMaterial("mystical_armor", Reference.MOD_ID + ":mystic", 15, new int[]{3, 12, 22, 3}, 60, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 0.0F);
-	  public static final ToolMaterial QUARTER_MYSTICAL_WEAPONS = EnumHelper.addToolMaterial("quarter_mystical_weapons", 0, 1500, 3.0F, 4.0F, 50);
-	  
+	  public static final ToolMaterial TOPAZ_TOOLS = EnumHelper.addToolMaterial("topaz_tools", 2, 110, 5.0F, 1.5F, 50);
+	  public static final ArmorMaterial TOPAZ_ARMOR = EnumHelper.addArmorMaterial("topaz_armor", Reference.MOD_ID + ":topaz", 15, new int[]{2, 6, 5, 2}, 60, SoundEvents.ENTITY_PLAYER_ATTACK_SWEEP , 0.0F);
+	  public static final ToolMaterial TOPAZ_WEAPONS = EnumHelper.addToolMaterial("topaz_weapons", 0, 100, 3.0F, 4.0F, 50);
+	   
 	  //Items
       public static final Item UNPOLISHED_TOPAZ = new HtmmItemBase("unpolished_topaz");      
       public static final Item POLISHED_TOPAZ = new HtmmItemBase("polished_topaz");      
@@ -41,17 +41,23 @@ public class HtmmItems
       public static final Item DIAMOND_ROD = new HtmmItemBase("diamond_rod");
       
       
-      //Armour
-      public static final Item HELEMT_OF_KNOWLEDGE = new HtmmArmorBase("helmet_of_knowledge", MYSTICAL_ARMOR, 1, EntityEquipmentSlot.HEAD);
-      public static final Item CHESTPLATE_OF_STRENGTH = new HtmmArmorBase("chestplate_of_strength", MYSTICAL_ARMOR, 1, EntityEquipmentSlot.CHEST);
-      public static final Item LEGGINGS_OF_LIFE = new HtmmArmorBase("leggings_of_life", MYSTICAL_ARMOR, 2, EntityEquipmentSlot.LEGS);
-      public static final Item BOOTS_OF_BRISKNESS = new HtmmArmorBase("boots_of_briskness", MYSTICAL_ARMOR, 1, EntityEquipmentSlot.FEET);
+      //Armor
+      public static final Item TOPAZ_HELMET = HtmmArmorBase("topaz_helmet", TOPAZ_ARMOR, 1, EntityEquipmentSlot.HEAD);
+      public static final Item TOPAZ_CHESTPLATE = HtmmArmorBase("topaz_chestplate", TOPAZ_ARMOR, 1, EntityEquipmentSlot.CHEST); 
+      public static final Item TOPAZ_LEGGINGS = HtmmArmorBase("topaz_leggings", TOPAZ_ARMOR, 2, EntityEquipmentSlot.LEGS);
+      public static final Item TOPAZ_BOOTS = HtmmArmorBase("topaz_boots", TOPAZ_ARMOR, 1, EntityEquipmentSlot.FEET);
       
       //Tools
-      public static final Item QUARTER_PICKAXE_OF_STRENGTH = new HtmmPickaxeBase("qaurter_pickaxe_of_strength", QUARTER_MYSTICAL_TOOLS);
-      public static final Item QUARTER_SHOVEL_OF_SWIFTNESS = new HtmmShovelBase("qaurter_shovel_of_swiftness", QUARTER_MYSTICAL_TOOLS);
-      public static final Item QUARTER_AXE_OF_VITALITY = new HtmmAxeBase("qaurter_axe_of_vitality", QUARTER_MYSTICAL_TOOLS);
-      public static final Item QUARTER_SWORD_OF_INTELLIGENCE = new HtmmSwordBase("qaurter_sword_of_intelligence", QUARTER_MYSTICAL_WEAPONS);
-      public static final Item HOE_OF_DISAPPOINTMENT = new HtmmHoeBase("hoe_of_disappointment", QUARTER_MYSTICAL_TOOLS);
+      public static final Item TOPAZ_PICKAXE = new HtmmPickaxeBase("topaz_pickaxe", TOPAZ_TOOLS);
+      public static final Item TOPAZ_SHOVEL = new HtmmShovelBase("topaz_shovel", TOPAZ_TOOLS);
+      public static final Item TOPAZ_AXE = new HtmmAxeBase("topaz_axe", TOPAZ_TOOLS);
+      public static final Item TOPAZ_SWORD = new HtmmSwordBase("topaz_sword", TOPAZ_WEAPONS);
+      public static final Item TOPAZ_HOE = new HtmmHoeBase("topaz_hoe", TOPAZ_TOOLS);
+      
+      
+	  private static Item HtmmArmorBase(String string, ArmorMaterial topazArmor, int i, EntityEquipmentSlot feet)
+	  {
+	    return null;
+	}
       
 }

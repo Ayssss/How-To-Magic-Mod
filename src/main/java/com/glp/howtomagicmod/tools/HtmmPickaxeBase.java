@@ -15,7 +15,7 @@ public class HtmmPickaxeBase extends ItemPickaxe implements IHasModel
 	  super(material);
 		setUnlocalizedName(name);
 		  setRegistryName(name);
-		    setCreativeTab(CreativeTabs.TOOLS);
+		    setCreativeTab(Main.htmmtoolstab);
 		    
 		    
 		 HtmmItems.ITEMS.add(this);

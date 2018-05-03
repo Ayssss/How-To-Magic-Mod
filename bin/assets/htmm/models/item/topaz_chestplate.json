@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "htmm:items/topaz_chestplate"
+   }
+}

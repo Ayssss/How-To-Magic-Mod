@@ -20,3 +20,35 @@
 1525319647764	Rename type 'HtmmArmourBase'
 1525322113560	Copy compilation unit
 1525322303364	Copy compilation unit
+1525327167858	Copy file
+1525327187436	Copy file
+1525327222607	Copy file
+1525327275518	Copy file
+1525327286427	Copy file
+1525362652275	Rename package 'com.glp.howtomagicmod.armour'
+1525365846185	Rename resource 'boots_of_briskness.json'
+1525365922232	Copy package
+1525365929897	Delete element
+1525365951904	Rename package 'assets.htmm.textures.models'
+1525366071776	Rename resource 'chestplate_of_strength.json'
+1525366095608	Rename resource 'helmet_of_knowledge.json'
+1525366109092	Rename resource 'leggings_of_life.json'
+1525366132771	Rename resource 'quarter_axe_of_vitality.json'
+1525366262843	Delete element
+1525366436701	Copy file
+1525366444525	Copy file
+1525366452546	Copy file
+1525366465672	Copy file
+1525368940813	Rename resource 'axe_topaz.json'
+1525368951783	Rename resource 'boots_topaz.json'
+1525368967246	Rename resource 'chestplate_topaz.json'
+1525368989258	Rename resource 'helmet_topaz.json'
+1525369004250	Rename resource 'leggings_topaz.json'
+1525369431213	Rename resource 'sword_topaz.json'
+1525369447178	Rename resource 'shovel_topaz.json'
+1525369469877	Rename resource 'pickaxe_topaz.json'
+1525369783583	Rename resource 'hoe_topaz.json'
+1525370120404	Rename resource 'hoe_topaz.png'
+1525370136543	Rename resource 'shovel_topaz.png'
+1525370154050	Rename resource 'sword_topaz.png'
+1525370172656	Rename resource 'chestplate_topaz.png'

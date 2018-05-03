@@ -1,0 +1,60 @@
+package com.glp.howtomagicmod.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.glp.howtomagicmod.armor.HtmmArmorBase;
+import com.glp.howtomagicmod.items.HtmmItemBase;
+import com.glp.howtomagicmod.tools.HtmmAxeBase;
+import com.glp.howtomagicmod.tools.HtmmHoeBase;
+import com.glp.howtomagicmod.tools.HtmmPickaxeBase;
+import com.glp.howtomagicmod.tools.HtmmShovelBase;
+import com.glp.howtomagicmod.util.Reference;
+import com.glp.howtomagicmod.weapons.swords.HtmmSwordBase;
+
+import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+
+public class HtmmItems 
+{
+	public static final List<Item> ITEMS = new ArrayList<Item>();
+
+	  //Materials
+	  public static final ToolMaterial TOPAZ_TOOLS = EnumHelper.addToolMaterial("topaz_tools", 2, 110, 5.0F, 1.5F, 50);
+	  public static final ArmorMaterial TOPAZ_ARMOR = EnumHelper.addArmorMaterial("topaz_armor", Reference.MOD_ID + ":topaz", 15, new int[]{2, 6, 5, 2}, 60, SoundEvents.ENTITY_PLAYER_ATTACK_SWEEP , 0.0F);
+	  public static final ToolMaterial TOPAZ_WEAPONS = EnumHelper.addToolMaterial("topaz_weapons", 0, 100, 3.0F, 4.0F, 50);
+	   
+	  //Items
+      public static final Item UNPOLISHED_TOPAZ = new HtmmItemBase("unpolished_topaz");      
+      public static final Item POLISHED_TOPAZ = new HtmmItemBase("polished_topaz");      
+      public static final Item UNPOLISHED_SAPPHIRE = new HtmmItemBase("unpolished_sapphire");      
+      public static final Item POLISHED_SAPPHIRE = new HtmmItemBase("polished_sapphire");
+      public static final Item UNPOLISHED_RUBY = new HtmmItemBase("unpolished_ruby");	
+      public static final Item POLISHED_RUBY = new HtmmItemBase("polished_ruby");      
+      public static final Item STONE_ROD = new HtmmItemBase("stone_rod");      
+      public static final Item IRON_ROD = new HtmmItemBase("iron_rod");
+      public static final Item GOLD_ROD = new HtmmItemBase("gold_rod");
+      public static final Item DIAMOND_ROD = new HtmmItemBase("diamond_rod");
+      
+      
+      //Armor
+      public static final Item TOPAZ_HELMET = HtmmArmorBase("topaz_helmet", TOPAZ_ARMOR, 1, EntityEquipmentSlot.HEAD);
+      public static final Item TOPAZ_CHESTPLATE = HtmmArmorBase("topaz_chestplate", TOPAZ_ARMOR, 1, EntityEquipmentSlot.CHEST); 
+      public static final Item TOPAZ_LEGGINGS = HtmmArmorBase("topaz_leggings", TOPAZ_ARMOR, 2, EntityEquipmentSlot.LEGS);
+      public static final Item TOPAZ_BOOTS = HtmmArmorBase("topaz_boots", TOPAZ_ARMOR, 1, EntityEquipmentSlot.FEET);
+      
+      //Tools
+      public static final Item TOPAZ_PICKAXE = new HtmmPickaxeBase("topaz_pickaxe", TOPAZ_TOOLS);
+      public static final Item TOPAZ_SHOVEL = new HtmmShovelBase("topaz_shovel", TOPAZ_TOOLS);
+      public static final Item TOPAZ_AXE = new HtmmAxeBase("topaz_axe", TOPAZ_TOOLS);
+      public static final Item TOPAZ_SWORD = new HtmmSwordBase("topaz_sword", TOPAZ_WEAPONS);
+      public static final Item TOPAZ_HOE = new HtmmHoeBase("topaz_hoe", TOPAZ_TOOLS);
+      
+     
+	}
+      
+}

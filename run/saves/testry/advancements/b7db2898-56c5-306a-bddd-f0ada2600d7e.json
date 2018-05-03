@@ -1,0 +1,14 @@
+{
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2018-05-03 11:00:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2018-05-03 11:00:30 -0600"
+    },
+    "done": false
+  }
+}

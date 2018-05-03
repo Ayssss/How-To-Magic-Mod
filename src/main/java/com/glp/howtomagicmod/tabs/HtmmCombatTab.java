@@ -13,7 +13,7 @@ public class HtmmCombatTab extends CreativeTabs
 	  super("htmmcombattab");
 	    this.setBackgroundImageName("htmm.png"); }
 	      public ItemStack getTabIconItem() {
-		    return new ItemStack(HtmmItems.CHESTPLATE_OF_STRENGTH);
+		    return new ItemStack(HtmmItems.TOPAZ_CHESTPLATE);
  }
 }
 

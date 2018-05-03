@@ -20,16 +20,22 @@ tile.topaz_block.name=Block of Topaz
 
 
 //How To Magic Mod Tools
-
+item.topaz_axe.name=Topaz Axe
+item.topaz_pickaxe.name=Topaz Pickaxe
+item.topaz_shovel.name=Topaz Shovel
+item.topaz_hoe.name=Topaz Hoe
 
 //How To Magic Mod Weapons
-
+item.topaz_sword.name=Topaz Sword
 
 //How To Magic Mod Items Ores
 
 
 //How To Magic Mod Armor
-
+item.helmet_topaz.name=Topaz Helmet
+item.chestplate_topaz.name= Topaz Chestplate
+item.leggings_topaz.name=Topaz Leggings
+item.boots_topaz.name=Topaz Boots
 
 
 //How To Magic Mod Tabs

@@ -13,7 +13,7 @@ public class HtmmToolsTab extends CreativeTabs
 	  super("htmmtoolstab");
 	    this.setBackgroundImageName("htmm.png"); }
 	      public ItemStack getTabIconItem() {
-		    return new ItemStack(HtmmItems.QUARTER_PICKAXE_OF_STRENGTH);
+		    return new ItemStack(HtmmItems.TOPAZ_PICKAXE);
  }
 }
 

@@ -17,7 +17,7 @@ public HtmmSwordBase(String name, ToolMaterial material) {
   super(material);
 	setUnlocalizedName(name);
 	  setRegistryName(name);
-	    setCreativeTab(CreativeTabs.COMBAT);
+	    setCreativeTab(Main.htmmcombattab);
 	    
 	    
 	 HtmmItems.ITEMS.add(this);
