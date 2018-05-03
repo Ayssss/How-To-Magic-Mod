@@ -14,7 +14,7 @@ public class HtmmItemBase extends Item implements IHasModel
 	  {
 		setUnlocalizedName(name);
 		  setRegistryName(name);
-		    setCreativeTab(CreativeTabs.MATERIALS);
+		    setCreativeTab(Main.htmmmaterialstab);
 		    
 		    
 		 HtmmItems.ITEMS.add(this);

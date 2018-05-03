@@ -1,5 +1,7 @@
 package com.glp.howtomagicmod.blocks;
 
+import com.glp.howtomagicmod.Main;
+
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
@@ -15,7 +17,7 @@ public class TopazBlock extends HtmmBlockBase
 	            setHarvestLevel("pickaxe", 2);
 	              //setLightLevel(3.0F);
 	                //setLightOpacity()   Indicates how much light can pass through blocks. ONLY USE FOR WINDOWS
-	              
+	                    setCreativeTab(Main.htmmblockstab);
 	}
 		
 }

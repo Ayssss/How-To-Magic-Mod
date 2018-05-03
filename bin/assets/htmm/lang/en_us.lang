@@ -26,3 +26,8 @@ tile.topaz_block.name=Block of Topaz
 
 
 //How To Magic Mod Items Ores
+
+//How To Magic Mod Tabs
+
+itemGroup.htmmmaterialstab=How To Materials
+itemGroup.htmmblokstab=How To Blocks

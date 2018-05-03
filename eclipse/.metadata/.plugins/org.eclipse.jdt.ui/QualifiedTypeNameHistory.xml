@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="com.greylightproductions.howtomagicmod.util.Reference"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.Instance"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraftforge.client.model.ModelLoader"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.block.model.ModelResourceLocation"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
@@ -18,12 +17,17 @@
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.blocks.HtmmBlockBase"/>
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.util.IHasModel"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
-<fullyQualifiedTypeName name="com.glp.howtomagicmod.init.HtmmItems"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.Main"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="com.glp.howtomagicmod.init.HtmmBlocks"/>
 <fullyQualifiedTypeName name="net.minecraft.block.SoundType"/>
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.blocks.SarlagaStone"/>
+<fullyQualifiedTypeName name="com.glp.howtomagicmod.blocks.TopazBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.util.datafix.fixes.ItemIntIDToString"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.glp.howtomagicmod.init.HtmmBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="com.glp.howtomagicmod.tabs.HtmmMaterialsTab"/>
+<fullyQualifiedTypeName name="com.glp.howtomagicmod.init.HtmmItems"/>
+<fullyQualifiedTypeName name="com.glp.howtomagicmod.tabs.HtmmBlocksTab"/>
 </qualifiedTypeNameHistroy>
