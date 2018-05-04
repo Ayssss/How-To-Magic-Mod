@@ -30,4 +30,6 @@
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.tabs.HtmmMaterialsTab"/>
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.init.HtmmItems"/>
 <fullyQualifiedTypeName name="com.glp.howtomagicmod.tabs.HtmmBlocksTab"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.EntityEquipmentSlot"/>
 </qualifiedTypeNameHistroy>
